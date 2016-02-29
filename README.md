@@ -35,3 +35,4 @@ Then run gogs
 	docker run --rm -ti --name gogs --link gogs-mysql:mysql -p 10022:22 -p 10080:3000 -v /var/gogs:/data codeskyblue/docker-gogs
 
 Good luck.
+
